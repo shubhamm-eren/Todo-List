@@ -1,0 +1,115 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    background: #113f67;
+    color: #fff;
+    padding: 20px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.form_container {
+    padding: 20px;
+    background: #38598b;
+}
+
+.form_container form input,.form_container form textarea {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input[type="submit"] {
+    margin: 0px !important;
+    color: #fff !important;
+    background: #a2a8d3;
+    font-weight: 500;
+    width: max-content !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: black;
+}
+textarea{
+    height:100px;
+    resize: none;
+}
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #113f67;
+}
+
+::selection {
+  color: #fff;
+  background: #113f67;
+}
+.form_control {
+    position: relative;
+}
+
+span.err {
+    position: absolute;
+    bottom: -16px;
+    color: #fba1a1;
+    font-size: 12px;
+}
+.view_table {
+    padding: 20px 0;
+}
+
+.view_table table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.view_table table td,.view_table table th {
+    padding: 13px;
+}
+.view_table table th {
+    background: #a2a8d3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background: #dadde9;
+}
+
+tbody tr:nth-child(odd) {
+    background: #e7eaf6;
+    color: #113f67;
+}
+/* 
+.view_table table td a {
+    color: #fff;
+} */
+a.edit_link {
+    color: #38598b;
+}
+
+a.delete_link {
+    color: #ed2f2f;
+}
+tbody tr:hover {
+    background: #e2e3e9;
+}
